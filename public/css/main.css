@@ -1,8 +1,5 @@
-.cat_image {
-    margin: 6% 0;
-}
-
 .contador {
+    margin: 4% 0 0 0;
     padding: 1%;
 }
 
@@ -14,4 +11,9 @@
 button {
     float: right;
     margin: 3% 0 0 0;
+}
+
+.item-cat {
+    float: left;
+    width: 50%;
 }
