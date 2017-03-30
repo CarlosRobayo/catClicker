@@ -1,0 +1,17 @@
+.cat_image {
+    margin: 6% 0;
+}
+
+.contador {
+    padding: 1%;
+}
+
+.container {
+    margin: 8% auto;
+    width: 60%;
+}
+
+button {
+    float: right;
+    margin: 3% 0 0 0;
+}

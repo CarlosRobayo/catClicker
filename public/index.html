@@ -3,8 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Cat Clicker</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
+    <div class="container">
+
+        <div class="form-group">
+            <label>Number Cats:</label>
+            <input type="text" class="form-control" id="number-cats">
+            <button class="btn btn-primary" onclick="printCats()">See Cats</button>
+        </div>
+
+        <div id="containerCats">
+
+        </div>
+
+    </div>
+
+    <!--<div class="row">
+
+        <div class="container text-center col-md-6">
+            <img src="img/project/cat.jpg" alt="Image Cat" id="cat" class="cat_image">
+            <br>
+            <span id="contador" class="badge badge-primary contador"></span>
+        </div>
+
+        <div class="container text-center col-md-6">
+            <img src="img/project/cat.jpg" alt="Image Cat" id="cat2" class="cat_image">
+            <br>
+            <span id="contador2" class="badge badge-success contador"></span>
+        </div>
+
+    </div>-->
+
+    <script src="js/main.js"></script>
     
 </body>
 </html>
